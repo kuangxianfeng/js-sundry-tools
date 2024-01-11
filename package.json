@@ -5,7 +5,7 @@
     "main": "lib/index.cjs.js",
     "module": "lib/index.esm.js",
     "jsnext:main": "lib/index.esm.js",
-    "browser": "lib/index.umd.js",
+    "browser": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
         "lib"
