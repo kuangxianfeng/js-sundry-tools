@@ -1,6 +1,6 @@
 {
     "name": "js-sundry-tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "js 杂项工具库",
     "main": "lib/index.cjs.js",
     "module": "lib/index.esm.js",
@@ -13,7 +13,8 @@
     "scripts": {
         "test": "jest",
         "build": "rollup -c ./rollup.config.js",
-        "lint": "eslint --fix --ext ./src/.ts"
+        "lint": "eslint --fix --ext ./src/.ts",
+        "release": "standard-version"
     },
     "repository": {
         "type": "git",
