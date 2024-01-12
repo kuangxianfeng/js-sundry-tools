@@ -1,5 +1,5 @@
 // https://github.com/clarkbw/jest-localstorage-mock
-import Storage from '../storage'
+import { Storage } from '../storage'
 
 export type T1 = {
     username: string

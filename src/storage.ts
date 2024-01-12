@@ -9,7 +9,7 @@ export type StorageConfig = {
     prefix?: string
 }
 
-class Storage<T extends AnyObj> {
+export class Storage<T extends AnyObj> {
     storage: globalThis.Storage
     prefix: string
     constructor(params?: StorageConfig) {
@@ -52,5 +52,3 @@ class Storage<T extends AnyObj> {
         return `${this.prefix}${key.toString()}`
     }
 }
-
-export default Storage

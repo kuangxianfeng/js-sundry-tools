@@ -8,7 +8,7 @@ export type StorageConfig = {
      */
     prefix?: string;
 };
-declare class Storage<T extends AnyObj> {
+export declare class Storage<T extends AnyObj> {
     storage: globalThis.Storage;
     prefix: string;
     constructor(params?: StorageConfig);
@@ -19,4 +19,3 @@ declare class Storage<T extends AnyObj> {
     clear(): void;
     private addPrefix;
 }
-export default Storage;
