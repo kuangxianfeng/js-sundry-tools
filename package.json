@@ -1,6 +1,6 @@
 {
     "name": "js-sundry-tools",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "js 杂项工具库",
     "main": "lib/index.cjs.js",
     "module": "lib/index.esm.js",
