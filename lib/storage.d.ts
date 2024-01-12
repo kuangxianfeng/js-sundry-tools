@@ -19,3 +19,4 @@ export declare class Storage<T extends AnyObj> {
     clear(): void;
     private addPrefix;
 }
+export declare const a = 1;

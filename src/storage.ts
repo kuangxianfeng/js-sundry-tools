@@ -52,3 +52,5 @@ export class Storage<T extends AnyObj> {
         return `${this.prefix}${key.toString()}`
     }
 }
+
+export const a = 1

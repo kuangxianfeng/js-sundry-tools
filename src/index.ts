@@ -4,3 +4,10 @@ import * as tree from './tree'
 import * as reg from './reg'
 
 export { storage, object, tree, reg }
+
+export default {
+    storage,
+    object,
+    tree,
+    reg
+}
