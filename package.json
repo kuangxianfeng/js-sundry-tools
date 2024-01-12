@@ -14,14 +14,18 @@
         "test": "jest",
         "build": "rollup -c ./rollup.config.js",
         "lint": "eslint --fix --ext ./src/.ts",
-        "release": "standard-version"
+        "pre": "standard-version",
+        "release": "git push --follow-tags origin main && npm publish"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/kuangxianfeng/js-sundry-tools.git"
     },
     "keywords": [
-        "js"
+        "js",
+        "object",
+        "storage",
+        "tree"
     ],
     "author": "Yuichi chiba",
     "license": "ISC",
