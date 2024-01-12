@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/kuangxianfeng/js-sundry-tools/compare/v1.0.4...v1.0.5) (2024-01-12)
+
+
+### Bug Fixes
+
+* 修改配置 ([aa8e04b](https://github.com/kuangxianfeng/js-sundry-tools/commit/aa8e04b1bd3a1f0c5bfae126f0f7c0576836f4ac))
+
 ### [1.0.4](https://github.com/kuangxianfeng/js-sundry-tools/compare/v1.0.3...v1.0.4) (2024-01-12)
 
 
